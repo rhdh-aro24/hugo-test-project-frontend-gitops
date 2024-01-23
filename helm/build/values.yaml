@@ -1,0 +1,15 @@
+app:
+  name: hugo-test-project-poi-map-app
+  namespace: hugo-test-project
+  cluster: .apps.kovj5vhc.eastus.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-aro24/hugo-test-project-frontend
+  org: rhdh-aro24
+  name: hugo-test-project-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: hugo-test-project/poi-map-app
+  tag: latest
